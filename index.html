@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <script type="module" src="principal.js"></script>
+    </head>
+    <body>
+        <script type="module">
+            import modulo from './principal.js';
+                document.getElementById("nome").innerHTML = modulo().nome();
+                document.getElementById("dobro").innerHTML = modulo().dobroPi();
+        </script>
+        <p>meu teste</p> <br/>
+
+        <span>Nome: <p id="nome"></p></span>
+        <span>Dobro do pi: <p id="dobro"></p></span>
+    </body>
+</html>
